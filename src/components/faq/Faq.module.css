@@ -13,7 +13,7 @@
   /* Título */
   .faqTitle {
     font-size: 1.8rem;
-    color: #e8756a;
+    color: #000;
     text-align: center;
     margin-bottom: 20px;
   }
@@ -27,7 +27,7 @@
   
   /* Cada item do FAQ */
   .faqItem {
-    border: 1px solid #999;
+    border: 1px solid #FFD700;
     border-radius: 8px;
     padding: 10px;
     cursor: pointer;
@@ -42,7 +42,7 @@
   .faqPergunta {
     font-size: 1rem;
     font-weight: bold;
-    color: #e8756a;
+    color: #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +51,7 @@
   /* Ícone */
   .faqIcone {
     font-size: 1.5rem;
-    color: #e8756a;
+    color: #FFD700;
   }
   
   /* Resposta */
