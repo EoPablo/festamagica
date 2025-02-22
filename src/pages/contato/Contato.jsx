@@ -42,7 +42,7 @@ const Contato = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Contato</h1>
+      <h1 className={styles.title}>Con<span>tato</span></h1>
 
       <form className={styles.form} onSubmit={sendEmail}>
         <input
