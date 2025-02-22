@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './sobre.module.css';
-import EventsComponent from '../../components/swiper/EventsComponent';
+import EventsComponent from '../../components/Swiper/EventsComponent';
 import '../../pages/contato/Contato';
 
 const Sobre = () => {
