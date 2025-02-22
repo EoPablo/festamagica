@@ -9,7 +9,7 @@ const Sobre = () => {
     <section className={styles.container}>
         <div>
             <h1 className={styles.title}>
-                Quem Somos
+                Quem S<span>omos</span>
             </h1>
         </div>
 

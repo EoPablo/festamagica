@@ -20,6 +20,11 @@
   align-items: center;
 }
 
+.title span {
+  text-decoration: underline;
+  text-decoration-color: #FFD700;
+}
+
 .text {
   max-width: 50rem; /* 800px em rem */
   margin: 0.625rem auto; /* 10px em rem */
