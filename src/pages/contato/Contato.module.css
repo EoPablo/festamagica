@@ -19,6 +19,12 @@
 .title {
   margin-bottom: 0.875rem; /* 14px */
   font-family: 'Poppins', sans-serif; /* Adiciona a fonte Poppins */
+  font-size: 2.5rem;
+}
+
+.title span {
+  text-decoration: underline;
+  text-decoration-color: #FFD700;
 }
 
 .form {
@@ -61,7 +67,7 @@
 }
 
 .button:hover {
-  background-color: #E9E2DD;
+  background-color: #FFD700;
   color: #000;
   border: 1px solid black;
   transform: scale(1.01);
