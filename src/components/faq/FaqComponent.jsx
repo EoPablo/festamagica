@@ -5,7 +5,7 @@ const Faq = () => {
   const perguntasRespostas = [
     {
       pergunta: 'O que está incluído no cardápio?',
-      resposta: 'Nosso cardápio inclui Mini Hot-Dog, Mini Pizza, Crepe Suíço, Mini X-Búrguer e muito mais!',
+      resposta: 'Nosso cardápio inclui Mini Hot-Dog, Mini Pizza, Crepe Suíço, X - Salada e muito mais!',
     },
     {
       pergunta: 'Como faço para fazer um pedido?',
