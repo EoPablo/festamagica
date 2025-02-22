@@ -11,14 +11,6 @@ const Faq = () => {
       pergunta: 'Como faço para fazer um pedido?',
       resposta: 'É super fácil! É só clicar no botão do WhatsApp para falar com a gente ou mandar um e-mail, na aba "Contato".',
     },
-    {
-      pergunta: 'Oferecem opções vegetarianas?',
-      resposta: 'Sim! Temos opções como tapioca e saladas personalizadas para vegetarianos.',
-    },
-    {
-      pergunta: 'Qual é o horário de funcionamento?',
-      resposta: 'Estamos disponíveis de segunda a sábado, das 10h às 22h.',
-    },
   ];
 
   return (
