@@ -10,7 +10,8 @@ import Image4 from '../../imgs/bf06.jpeg'
 
 import React from 'react';
 
-import SwiperComponent from "../../../components/swiper/SwiperComponent";
+import SwiperComponent from "../../components/Swiper/SwiperComponent";
+
 
 const Home = () => {
   return (
