@@ -1,0 +1,38 @@
+.swiperContainer {
+    width: 100%;
+    max-width: 800px; 
+    margin: 40px auto;
+    padding: 25px 0;
+    cursor: pointer;
+  }
+  
+  .swiperSlide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Evita que as imagens saiam do container */
+    height: auto; /* Altura automática, ajustando de acordo com a imagem */
+    min-height: 140px; /* Altura mínima para garantir que todos os slides tenham a mesma altura */
+  }
+  
+  /* Imagem do slide */
+  .swiperSlideImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garante que a imagem cubra toda a área do slide sem distorcer */
+    object-position: center; /* Centraliza a imagem */
+  }
+
+  
+  @media (max-width: 768px) {
+    .swiperContainer {
+      padding: 8px;
+      height: auto;
+    }
+
+    .swiperSlide{
+      display: none
+    }
+  }

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+  max-width: 50rem; /* 800px em rem */
+  margin: 0 auto;
+  padding: 0 1.25rem; /* 20px em rem */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  height: 3.75rem; /* 60px em rem */
+  max-width: 50rem; /* 800px em rem */
+  margin-top: 1.875rem; /* 30px em rem */
+  font-size: 2.25rem; /* 36px em rem */
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  max-width: 50rem; /* 800px em rem */
+  margin: 0.625rem auto; /* 10px em rem */
+  padding: 1.25rem; /* 20px em rem */
+  text-align: justify;
+  line-height: 1.8;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem; /* 18px em rem */
+  color: #1f1f1f;
+  background: #FFF;
+  border: 1px solid #ddd;
+  border-radius: 0.9375rem; /* 15px em rem */
+  box-shadow: 0 0.375rem 0.75rem rgba(0, 0, 0, 0.1); /* 6px 12px em rem */
+}
+
+.link {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 0.9375rem 2rem; /* 15px 32px em rem */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem; /* 16px em rem */
+  cursor: pointer;
+  border-radius: 0.5rem; /* 8px em rem */
+  transition: all 0.3s ease;
+  max-width: 18.75rem; /* 300px em rem */
+  margin: 1.25rem auto; /* 20px em rem */
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link:hover {
+  background-color: #E9E2DD;
+  color: #000;
+  font-weight: bold;
+  box-shadow: 0px 0.25rem 0.375rem rgba(0, 0, 0, 0.2); /* 4px 6px em rem */
+}
+
+.link:focus {
+  outline: none;
+  box-shadow: 0 0 0.5rem rgba(0, 123, 255, 0.6); /* 8px em rem */
+}
+
+/* Responsividade */
+@media (max-width: 48rem) { /* 768px em rem */
+  .container {
+    padding: 0 2rem; /* Aumentando o padding para melhorar a margem em telas menores */
+  }
+
+  .title {
+    font-size: 1.75rem; /* 28px em rem */
+  }
+
+  .text {
+    font-size: 1rem; /* 16px em rem */
+    padding: 1rem; /* Ajuste no padding */
+  }
+
+  .link {
+    padding: 0.75rem 1.5rem; /* Ajustando o padding para dispositivos móveis */
+    font-size: 0.875rem; /* Ajuste do tamanho da fonte */
+    width: 80%; /* Torna o link mais responsivo em dispositivos móveis */
+  }
+}
+
+@media (max-width: 30rem) { /* 480px em rem */
+  .title {
+    font-size: 1.5rem; /* 24px em rem */
+  }
+
+  .text {
+    font-size: 0.875rem; /* 14px em rem */
+    padding: 0.625rem; /* 10px em rem */
+    margin-bottom: 0px;
+  }
+
+  .link {
+    width: 90%; /* Maior largura do link em dispositivos muito pequenos */
+    padding: 0.75rem 1rem; /* Ajusta o padding para melhorar a interação */
+  }
+}

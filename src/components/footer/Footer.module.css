@@ -1,0 +1,58 @@
+.footer {
+  background-color: #333; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  padding: 1.25rem; /* Ajuste em rem */
+  width: 100%;
+}
+
+.footer_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem; /* Ajuste do espaçamento entre os itens */
+  flex-wrap: wrap; /* Permite que os itens se ajustem em telas menores */
+  text-align: center;
+}
+
+/* Estilo para a área de redes sociais */
+.social_media {
+  display: flex;
+  gap: 1.875rem; /* Ajuste do espaçamento entre ícones */
+}
+
+.social_media a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social_media a:hover {
+  color: #1da1f2; /* Cor de hover */
+}
+
+/* Linha divisória */
+.divider {
+  width: 0.125rem; /* Ajuste em rem */
+  height: 2.5rem; /* Ajuste em rem */
+  background-color: #fff;
+  margin: 0 0.625rem; /* Ajuste da margem */
+}
+
+/* Ajuste do copyright */
+.copyright {
+  font-size: 0.9rem;
+}
+
+/* Responsividade: Alinha os itens em coluna quando a tela for pequena */
+@media (max-width: 600px) {
+  .footer_content {
+    flex-direction: column;
+    gap: 1.25rem; /* Aumenta o espaço entre os itens na coluna */
+  }
+
+  .divider {
+    width: 80%; /* Linha mais larga em telas pequenas */
+    height: 0.125rem; /* A linha fica mais fina */
+  }
+}
