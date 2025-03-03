@@ -6,6 +6,7 @@ import Sobre from './pages/sobre/Sobre';
 import Barracas from './pages/barracas/Barracas';
 import Contato from './pages/contato/Contato'
 import Layout from './components/layout/Layout';
+import Notfound from './pages/notfound/Notfound';
 
 const router = createBrowserRouter ([
     {
@@ -26,6 +27,10 @@ const router = createBrowserRouter ([
             {
                 path: '/contato',
                 element: <Contato />
+            },
+            {
+                path: '*',
+                element: <Notfound />
             }
         ]
     }
