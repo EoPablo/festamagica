@@ -48,6 +48,7 @@
 @media (max-width: 600px) {
   .footer_content {
     flex-direction: column;
+    flex-direction: column-reverse;
     gap: 1.25rem; /* Aumenta o espaço entre os itens na coluna */
   }
 
