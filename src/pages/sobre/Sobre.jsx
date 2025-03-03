@@ -24,11 +24,14 @@ const Sobre = () => {
             
         </article>
 
+        <div className={styles.buttonContainer}>
+            <Link to='/contato' className={styles.link}>
+                Solicite um orçamento!        
+            </Link>
+        </div>
+
         <EventsComponent />
 
-        <Link to='/contato' className={styles.link}>
-            Solicite um orçamento!        
-        </Link>
 
     </section>
   )
