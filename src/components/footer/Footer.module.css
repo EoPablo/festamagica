@@ -44,6 +44,14 @@
   font-size: 0.9rem;
 }
 
+.copyright a {
+  margin-left: 0.3125rem;
+}
+
+.link:hover{
+  text-decoration: underline;
+}
+
 /* Responsividade: Alinha os itens em coluna quando a tela for pequena */
 @media (max-width: 600px) {
   .footer_content {

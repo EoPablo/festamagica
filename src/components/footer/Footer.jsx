@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.css";
+import { Link } from "react-router-dom";
 
 import { FaInstagram } from "react-icons/fa";
 
@@ -18,7 +19,13 @@ const Footer = () => {
         <div className={styles.divider}></div>
 
         {/* Copyright */}
-        <p className={styles.copyright}>© 2025 Festa Mágica Eventos. Todos os direitos reservados.</p>
+        <p className={styles.copyright}>© 2025  
+          <Link to="/" className={styles.link}>
+             Festa Mágica Eventos.
+          </Link> 
+          Todos os direitos reservados.
+        </p>
+
       </div>
     </footer>
   );
