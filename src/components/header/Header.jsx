@@ -46,16 +46,16 @@ const Header = () => {
 
             {/* Menu de navegação */}
             <nav className={`${styles.nav} ${menuOpen ? styles.open : ''}`}>
-                <Link to='/' className={styles.menu_nav}>
+                <Link to='/' className={styles.menu_nav} onClick={() => setMenuOpen(false)}>
                     Home
                 </Link>
-                <Link to='/sobre' className={styles.menu_nav}>
+                <Link to='/sobre' className={styles.menu_nav} onClick={() => setMenuOpen(false)}>
                     Sobre
                 </Link>
-                <Link to='/barracas' className={styles.menu_nav}>
+                <Link to='/barracas' className={styles.menu_nav} onClick={() => setMenuOpen(false)}>
                     Barraquinhas
                 </Link>
-                <Link to='/contato' className={styles.menu_nav}>
+                <Link to='/contato' className={styles.menu_nav} onClick={() => setMenuOpen(false)}>
                     Contato
                 </Link>
             </nav>

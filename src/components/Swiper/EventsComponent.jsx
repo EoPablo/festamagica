@@ -11,6 +11,8 @@ import image5 from "../../imgs/bf05.jpeg";
 import image6 from "../../imgs/bf06.jpeg";
 import image7 from "../../imgs/bf07.jpeg";
 import image8 from "../../imgs/bf08.jpeg";
+import image9 from "../../imgs/hamb1.jpeg";
+import image10 from "../../imgs/hamb2.jpeg";
 
 // CSS Modules
 import styles from "./EventsComponent.module.css";
@@ -29,12 +31,14 @@ const SwiperComponent = () => {
     { id: 6, image: image6 },
     { id: 7, image: image7 },
     { id: 8, image: image8 },
+    { id: 9, image: image9 },
+    { id: 10, image: image10 },
   ];
 
   return (
     <Swiper
       modules={[Pagination, Autoplay]}
-      pagination={{ clickable: true }}
+      // pagination={{ clickable: true }}
       loop
       autoplay={{ delay: 3000 }} // Ajuste do delay para autoplay
       slidesPerView={3}
@@ -56,7 +60,7 @@ const SwiperComponent = () => {
         // Para telas médias
         768: {
           slidesPerView: 3, // 2 imagens por vez
-          spaceBetween: 20, // Ajuste o espaço entre as imagens
+          spaceBetween: 10, // Ajuste o espaço entre as imagens
         },
 
         // Para telas pequenas
