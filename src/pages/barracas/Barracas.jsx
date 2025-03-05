@@ -8,7 +8,7 @@ import fritas from '../../imgs/fritas.jpeg';
 import hamb from '../../imgs/bf02.jpg';
 import carneLouca from '../../imgs/bf04.jpg';
 import crepe from '../../imgs/bf03.jpg';
-import cascata from '../../imgs/cascata.jpg';
+import cascata from '../../imgs/cascata.jpeg';
 
 
 const barracas = [
