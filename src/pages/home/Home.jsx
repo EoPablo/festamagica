@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import styles from './home.module.css';
 
 // Imagens
-import Image from '../../imgs/bf01.jpg'
-import Image2 from '../../imgs/bf02.jpg'
-import Image3 from '../../imgs/bf03.jpg'
-import Image4 from '../../imgs/bf06.jpeg'
+import Image from '../../imgs/btf.jpeg'
+import Image2 from '../../imgs/hamb.jpeg'
+import Image3 from '../../imgs/crepe.jpeg'
+import Image4 from '../../imgs/hamb02.jpeg'
 
 import React from 'react';
 
@@ -30,10 +30,10 @@ const Home = () => {
 
       <section className={styles.seg_section}>
         <div className={styles.img_container}>
-          <img src={Image} alt="Imagem 1" />
-          <img src={Image2} alt="Imagem 1" />
-          <img src={Image3} alt="Imagem 1" />
-          <img src={Image4} alt="Imagem 1" />
+          <img src={Image} alt="Imagem do Buffet" />
+          <img src={Image2} alt="Imagem do Buffet" />
+          <img src={Image3} alt="Imagem do Buffet" />
+          <img src={Image4} alt="Imagem do Buffet" />
         </div>
         
 

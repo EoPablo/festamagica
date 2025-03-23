@@ -3,10 +3,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 // Imagens
-import image1 from "../../imgs/capa01.jpg";
+import image1 from "../../imgs/capa04.jpeg";
 import image2 from "../../imgs/capa02.jpg";
 import image3 from "../../imgs/capa03.jpg";
-import image4 from "../../imgs/capa04.jpeg";
+import image4 from "../../imgs/capa06.jpeg";
 import image5 from "../../imgs/capa05.jpeg";
 
 // CSS Modules
