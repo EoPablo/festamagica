@@ -3,11 +3,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 // Imagens
-import image1 from "../../imgs/capa04.jpeg";
+import image1 from "../../imgs/pessoalcp.jpg";
 import image2 from "../../imgs/capa02.jpg";
-import image3 from "../../imgs/capa03.jpg";
+import image3 from "../../imgs/barracascp.jpg";
 import image4 from "../../imgs/capa06.jpeg";
-import image5 from "../../imgs/capa05.jpeg";
+import image5 from "../../imgs/pessoalcp02.jpg";
 
 // CSS Modules
 import styles from "./SwiperComponent.module.css";
